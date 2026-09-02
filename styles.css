@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    gap: 10px;
+    margin-top: 1px;
+}
+
+.enlace {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 2rem;
+}
+
+.enlace {
+    font-size: 2rem;
+    line-height: 0px;
+    margin: 1px;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.enlace:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
